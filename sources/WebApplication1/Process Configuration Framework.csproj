@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B9248595-D9D1-415E-9963-DCA9661904E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Desktop\System.Data.SqlServerCe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Desktop\System.Data.SqlServerCe.Entity\System.Data.SqlServerCe.Entity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="App_Data\Database.sdf" />
+    <Content Include="BasicSearch.ascx" />
+    <Content Include="BasicSearch.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxControlToolkit.pdb" />
+    <Content Include="chain.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="contextControl.ascx" />
+    <Content Include="ContextForm.aspx" />
+    <Content Include="demo.aspx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="imgs\icons\computer30p - Copy.png" />
+    <Content Include="imgs\icons\Functional.png" />
+    <Content Include="imgs\icons\Logical.png" />
+    <Content Include="imgs\icons\method.png" />
+    <Content Include="imgs\icons\Requirement.png" />
+    <Content Include="imgs\icons\technical.png" />
+    <Content Include="imgs\icons\tool.png" />
+    <Content Include="InsertNew.aspx" />
+    <Content Include="impactControl.ascx" />
+    <Content Include="technologyControl.ascx" />
+    <Content Include="default.aspx" />
+    <Content Include="disclaimer.aspx" />
+    <Content Include="error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="help.aspx" />
+    <Content Include="HomePage.ascx" />
+    <Content Include="imgs\icons\home.png" />
+    <Content Include="imgs\icons\images\camera-loader.gif" />
+    <Content Include="imgs\icons\images\h3_bg.png" />
+    <Content Include="imgs\icons\images\icon1.png" />
+    <Content Include="imgs\icons\images\icon2.png" />
+    <Content Include="imgs\icons\images\icon3.png" />
+    <Content Include="imgs\icons\images\preloader.gif" />
+    <Content Include="imgs\icons\images\prevnext.png" />
+    <Content Include="imgs\icons\images\slide.jpg" />
+    <Content Include="imgs\icons\images\slide1.jpg" />
+    <Content Include="imgs\icons\images\slide2.jpg" />
+    <Content Include="imgs\icons\no_download.png" />
+    <Content Include="imgs\loading.gif" />
+    <Content Include="imgs\Related_Context.jpg" />
+    <Content Include="imgs\Related_Impact.jpg" />
+    <Content Include="index.html" />
+    <Content Include="imgs\apllied_in_by.png" />
+    <Content Include="imgs\description.png" />
+    <Content Include="imgs\dev_costs.gif" />
+    <Content Include="imgs\dev_schedule.gif" />
+    <Content Include="imgs\domain.gif" />
+    <Content Include="imgs\environment.gif" />
+    <Content Include="imgs\first.png" />
+    <Content Include="imgs\icons\board30p.png" />
+    <Content Include="imgs\icons\chip30p.png" />
+    <Content Include="imgs\icons\component30p.png" />
+    <Content Include="imgs\icons\delete.png" />
+    <Content Include="imgs\icons\details.png" />
+    <Content Include="imgs\icons\download.ico" />
+    <Content Include="imgs\icons\download.png" />
+    <Content Include="imgs\icons\edit.png" />
+    <Content Include="imgs\icons\Funcional30p.png" />
+    <Content Include="imgs\icons\ip30p.png" />
+    <Content Include="imgs\icons\logical30p.png" />
+    <Content Include="imgs\icons\method30po.jpg" />
+    <Content Include="imgs\icons\Other30.png" />
+    <Content Include="imgs\icons\related_Context.png" />
+    <Content Include="imgs\icons\requirement30p.png" />
+    <Content Include="imgs\icons\Technical30p.png" />
+    <Content Include="imgs\icons\tool30p.png" />
+    <Content Include="imgs\label.png" />
+    <Content Include="imgs\last.png" />
+    <Content Include="imgs\logo.gif" />
+    <Content Include="imgs\logo_aramis.gif" />
+    <Content Include="imgs\next.png" />
+    <Content Include="imgs\no_data_omi.gif" />
+    <Content Include="imgs\prerequisits.png" />
+    <Content Include="imgs\previous.png" />
+    <Content Include="imgs\process_outcomes.gif" />
+    <Content Include="imgs\project.gif" />
+    <Content Include="imgs\qual_product.gif" />
+    <Content Include="imgs\reference.gif" />
+    <Content Include="imgs\search_icon.gif" />
+    <Content Include="imgs\se_object.gif" />
+    <Content Include="imgs\triangle.gif" />
+    <Content Include="ImpactOnSoftware.aspx" />
+    <Content Include="Insert.aspx" />
+    <Content Include="js\js\camera.js" />
+    <Content Include="js\js\jquery-migrate-1.1.1.js" />
+    <Content Include="js\js\jquery.easing.1.3.js" />
+    <Content Include="js\js\jquery.js" />
+    <Content Include="js\MaxLength.min.js" />
+    <Content Include="MasterPageTest.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="oneColumn.Master" />
+    <Content Include="rtpMatrix.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll.refresh" />
+    <Content Include="home.Master" />
+    <None Include="Scripts\amplify-vsdoc.js" />
+    <Content Include="Scripts\amplify.js" />
+    <Content Include="Scripts\amplify.min.js" />
+    <Content Include="Scripts\GPL-LICENSE.txt" />
+    <None Include="Scripts\jquery-1.8.3.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.3.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\jquery-ui-1.9.2.js" />
+    <Content Include="Scripts\jquery-ui-1.9.2.min.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\json2.min.js" />
+    <Content Include="Scripts\juice.js" />
+    <Content Include="Scripts\juice.min.js" />
+    <Content Include="Scripts\MIT-LICENSE.txt" />
+    <Content Include="Scripts\README.txt" />
+    <Content Include="search.aspx" />
+    <Content Include="searchByContext.ascx" />
+    <Content Include="showContext.aspx" />
+    <Content Include="showImpact.aspx" />
+    <Content Include="showTechnology.aspx" />
+    <Content Include="stylesheets\layout.css" />
+    <Content Include="stylesheets\menu.css" />
+    <Content Include="Technology.aspx" />
+    <Content Include="UploadFile\nature-wallpaper-hd.jpg" />
+    <Content Include="UploadFile\Technology.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicSearch.ascx.cs">
+      <DependentUpon>BasicSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicSearch.ascx.designer.cs">
+      <DependentUpon>BasicSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicSearch.aspx.cs">
+      <DependentUpon>BasicSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicSearch.aspx.designer.cs">
+      <DependentUpon>BasicSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chain.aspx.cs">
+      <DependentUpon>chain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chain.aspx.designer.cs">
+      <DependentUpon>chain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contextControl.ascx.cs">
+      <DependentUpon>contextControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contextControl.ascx.designer.cs">
+      <DependentUpon>contextControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ContextForm.aspx.cs">
+      <DependentUpon>ContextForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContextForm.aspx.designer.cs">
+      <DependentUpon>ContextForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo.aspx.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo.aspx.designer.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.Master.cs">
+      <DependentUpon>home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.Master.designer.cs">
+      <DependentUpon>home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="InsertNew.aspx.cs">
+      <DependentUpon>InsertNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertNew.aspx.designer.cs">
+      <DependentUpon>InsertNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="impactControl.ascx.cs">
+      <DependentUpon>impactControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="impactControl.ascx.designer.cs">
+      <DependentUpon>impactControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="technologyControl.ascx.cs">
+      <DependentUpon>technologyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="technologyControl.ascx.designer.cs">
+      <DependentUpon>technologyControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.ascx.cs">
+      <DependentUpon>HomePage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.ascx.designer.cs">
+      <DependentUpon>HomePage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Insert.aspx.cs">
+      <DependentUpon>Insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insert.aspx.designer.cs">
+      <DependentUpon>Insert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oneColumn.Master.cs">
+      <DependentUpon>oneColumn.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oneColumn.Master.designer.cs">
+      <DependentUpon>oneColumn.Master</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dim.cs" />
+    <Compile Include="disclaimer.aspx.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="disclaimer.aspx.designer.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error.aspx.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="help.aspx.cs">
+      <DependentUpon>help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="help.aspx.designer.cs">
+      <DependentUpon>help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImpactOnSoftware.aspx.cs">
+      <DependentUpon>ImpactOnSoftware.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImpactOnSoftware.aspx.designer.cs">
+      <DependentUpon>ImpactOnSoftware.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPageTest.aspx.cs">
+      <DependentUpon>MasterPageTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPageTest.aspx.designer.cs">
+      <DependentUpon>MasterPageTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchByContext.ascx.cs">
+      <DependentUpon>searchByContext.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchByContext.ascx.designer.cs">
+      <DependentUpon>searchByContext.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="showContext.aspx.cs">
+      <DependentUpon>showContext.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="showContext.aspx.designer.cs">
+      <DependentUpon>showContext.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="showImpact.aspx.cs">
+      <DependentUpon>showImpact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="showImpact.aspx.designer.cs">
+      <DependentUpon>showImpact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="showTechnology.aspx.cs">
+      <DependentUpon>showTechnology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="showTechnology.aspx.designer.cs">
+      <DependentUpon>showTechnology.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Technology.aspx.cs">
+      <DependentUpon>Technology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Technology.aspx.designer.cs">
+      <DependentUpon>Technology.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rtpMatrix.aspx.cs">
+      <DependentUpon>rtpMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rtpMatrix.aspx.designer.cs">
+      <DependentUpon>rtpMatrix.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imgs\Thumbs.db" />
+    <Content Include="imgs\_notes\apllied_in_by.png.mno" />
+    <Content Include="imgs\_notes\description.png.mno" />
+    <Content Include="imgs\_notes\dev_costs.gif.mno" />
+    <Content Include="imgs\_notes\dev_schedule.gif.mno" />
+    <Content Include="imgs\_notes\domain.gif.mno" />
+    <Content Include="imgs\_notes\environment.gif.mno" />
+    <Content Include="imgs\_notes\label.png.mno" />
+    <Content Include="imgs\_notes\logo.gif.mno" />
+    <Content Include="imgs\_notes\logo_aramis.gif.mno" />
+    <Content Include="imgs\_notes\prerequisits.png.mno" />
+    <Content Include="imgs\_notes\process_outcomes.gif.mno" />
+    <Content Include="imgs\_notes\project.gif.mno" />
+    <Content Include="imgs\_notes\qual_product.gif.mno" />
+    <Content Include="imgs\_notes\reference.gif.mno" />
+    <Content Include="imgs\_notes\search_icon.gif.mno" />
+    <Content Include="imgs\_notes\se_object.gif.mno" />
+    <Content Include="imgs\_notes\triangle.gif.mno" />
+    <Content Include="Site1.Master" />
+    <None Include="Properties\PublishProfiles\scihpc4.cs.uni-kl.de.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DynamicData\FieldTemplates\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52224</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51411/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

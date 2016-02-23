@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Process Configuration Framework</title>
+<link href="stylesheets/layout.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="principal1">
+	<div class="red_bar">
+    	<div id="red_bar_text">Process Configuration Framework</div>
+    </div>
+    <div id="grey_bar">
+    	<div id="grey_bar_content">
+    		<div id="logo_pcf">
+            	<img src="imgs/logo.gif" alt="logo process configuration framework" width="147" height="57" /></div>
+            <div id="sys_functions_1">
+                <nav>
+                <ul id="header_menu">
+                <li  id="li_header_menu"><a>Add data</a></li> |
+                <li  id="li_header_menu"><a>Edit technology</a></li> |
+                <li  id="li_header_menu"><a>Configure Framework</a></li> |
+                <li  id="li_header_menu"><a>Build Process</a></li> |
+                <li  id="li_header_menu"><input id="search"/></li>
+                </ul>
+                </nav>
+            </div>
+            <div id="logo_aramis">
+            	<img src="imgs/logo_aramis.gif" width="144" height="59" alt="logo aramis" />
+            </div>
+    	</div>
+     </div>
+</div>
+<div id="principal2">
+	<div id="page_tittle">Add Method</div>
+    <div class="progress-bar red"><span style="width: 40%"></span></div>
+    <div id="menu">
+    	<nav>
+            <ul class="side_menu">
+            <li class="li"><a href="index.html" class="item"><span class="item_number">1</span>Technology</a></li>
+            <p class="explanation">Label<br />Description<br />Prerequisits<br />Applied in/by</p>
+            <li class="li"><a href="item2.html" class="item"><span class="item_number">2</span>Context</a></li>
+            <p class="explanation">Application Domain<br />Project<br />Environment</p>
+            <li class="li"><a href="item3.html" class="item"><span class="item_number">3</span>Impact on Software</a></li>
+            <p class="explanation">Developments Costs<br />Quality of the product<br />Process outcome<br />Software object<br />Development Schedule</p>
+            </ul>
+		</nav>
+    </div>
+<div class="form_area item2">
+  <form id="form1" name="form1" method="post" action="">
+  <div id="form_together">
+      <div class="form_domain">
+        <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/domain.gif" alt="domain" width="14" height="59"></td>
+                <td class="col1"><label class="label">Industrial Sector:</label></td>
+                <td class="col2">
+                  <input type="checkbox" name="Automotive" id="Automotive">
+                  <label for="Automotive" class="label">Automotive</label>
+                  <br>
+                  <input type="checkbox" name="Railway" id="Railway">
+                  <label for="Automotive" class="label">Railway</label>
+                  <br>
+                  <input type="checkbox" name="Avionic" id="Avionic">
+                  <label for="Automotive" class="label">Avionic</label>
+                  <br>
+                  <input type="checkbox" name="abstraction level other" id="abstraction level other" />
+                  <label for="abstraction level other"></label><input name="industrial sector other" type="text" id="industrial sector other" class="textfield checkbox"/>
+                </td>
+              </tr>
+              
+   		 </table>
+      </div>
+        <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td rowspan="3" class="col0"><img src="imgs/project.gif" alt="project" width="17" height="58"></td>
+                <td class="col1"><label class="label">Size (PM):</label></td>
+                <td class="col2"><a class="label">
+                <input name="size" type="text" id="size" class="textfield checkbox"/> 
+                PM</a></td>
+              </tr>
+              <tr>
+                <td class="col1"><label class="label">Kind of Software:</label></td>
+                <td class="col2"><textarea name="kind of software" id="kind of software" rows="2" class="textfield"></textarea>
+                  </td>
+              </tr>
+              <tr>
+                <td class="col1"><label class="label">Type of project:</label></td>
+                <td class="col2"><input name="type of project" type="text" class="textfield"/></td>
+              </tr>
+         </table>
+          </div>
+      <div class="form_domain">
+            <table  class="table_form">
+                      <tr>
+                        <td rowspan="5" class="col0"><img src="imgs/environment.gif" alt="environment" width="14" height="101"></td>
+                        <td class="col1"><label class="label">IT Environment:</label></td>
+                        <td class="col2"><textarea name="it environment" id="it environment" rows="2" class="textfield"></textarea>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td class="col1"><label class="label">Development Environment:</label></td>
+                        <td class="col2"><textarea name="Development Environment" id="Development Environment" rows="2" class="textfield"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td class="col1"><label class="label">Development process:</label></td>
+                        <td class="col2"><input name="Development process" type="text" class="textfield"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col1"><label class="label">Paradigma:</label></td>
+                        <td class="col2"><textarea name="paradigma" id="paradigma" rows="2" class="textfield"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td class="col1"><label class="label">Interdependancy:</label></td>
+                        <td class="col2"><textarea name="interdependancy" id="Interdependancy" rows="2" class="textfield"></textarea></td>
+                      </tr>
+                  </table>
+       </div>
+      <div class="form_domain"></div>
+      </div>
+      <div id="form_functions">
+        <p>Status: Publlished<br />
+Publication date: 1.2.2013 </p>
+        <p>
+          <input name="preview" type="button" value="preview" class="button gray"/>
+          <input name="save" type="button" value="save" width="30px" class="button gray"/>
+        </p>
+        <p> <input name="      publish now      " type="button" value="publish now" class="button gray"/>
+        </p>
+      
+      </div>
+      </form>
+  </div>
+</div>
+</body>
+</html>

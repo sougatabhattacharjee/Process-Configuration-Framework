@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Process Configuration Framework</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="stylesheets/layout.css" type="text/css" />
+</head>
+
+<body>
+<header id="page_header">
+	<div class="red_bar">
+    	<div id="red_bar_text">Process Configuration Framework</div>
+    </div>
+    <div id="grey_bar">
+    <div id="logo_pcf"><img src="imgs/logo.gif" alt="logo process configuration framework" width="147" height="57" /></div>
+    <div id="sys_functions_1">
+    <nav>
+    <ul id="header_menu">
+    <li  id="li_header_menu"><a>Add data</a></li> |
+    <li  id="li_header_menu"><a>Edit technology</a></li> |
+    <li  id="li_header_menu"><a>Configure Framework</a></li> |
+    <li  id="li_header_menu"><a>Build Process</a></li> |
+    <li  id="li_header_menu"><input id="search"/>
+    </ul>
+    </nav></div>
+    <div id="logo_aramis"><img src="imgs/logo_aramis.gif" width="144" height="59" alt="logo aramis" /></div>
+        </div>
+</header>
+<div id="function_tittle">
+	<div id="page_tittle">Add Method</div>
+	<div class="progress-bar red"><span style="width: 40%"></span></div>
+</div>
+<section id="side_navigation">
+	<nav>
+		<ul class="side_menu">
+		<li class="item"><a><span class="item_number">1</span>Technology</a></li>
+		<p class="explanation">Label<br />Description<br />Prerequisits<br />Applied in/by</p>
+		<li class="item"><a><span class="item_number">2</span>Context</a></li>
+        <p class="explanation">Application Domain<br />Project<br />Environment</p>
+		<li class="item"><a><span class="item_number">3</span>Impact on Software</a></li>
+        <p class="explanation">Developments Costs<br />Quality of the product<br />Process outcome<br />Software object<br />Development Schedule</p>
+		</ul>
+  </nav>
+</section>
+<section id="content">
+<section id="form">
+  <div id="form_area">
+      <form id="form1" name="form1" method="post" action="">
+      <div class="form_domain">
+      	<div class="domain_tittle">Label</div>
+        <div class="table_form"> 
+          <table width="500">
+      <tr>
+        <td class="col1"><label class="label">Name:</label></td>
+        <td><input name="name" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Abbreviation:</label></td>
+        <td><input name="abbreviation" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Type:</label></td>
+        <td><input name="method" type="radio"/>
+        <label class="label">Method </label>
+        <input name="method" type="radio"/><label class="label">Tool</label></td>
+      </tr>
+    </table>
+    </div>
+      </div>
+            <div class="form_domain">
+                <div class="domain_tittle">Description</div>
+        		<div class="table_form"> 
+          <table width="500" border="0" cellpadding="0">
+      <tr>
+        <td class="col1"><label class="label">Short Description:</label></td>
+        <td><textarea name="short description" id="" cols="45" rows="2"></textarea>
+          </td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Objectives:</label></td>
+        <td><textarea name="short description" id="" cols="45" rows="4"></textarea>
+          </td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Belongs to family:</label></td>
+        <td><input name="belongstofamily" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">If  method:</p>
+        </label></td>
+        <td><a class="label">Implemented by</a>
+          <input name="implementedBy" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">If  tool:</p>
+        </label></td>
+        <td><a class="label">Implements</a> 
+          <input name="implements" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Literature</label></td>
+        <td><input name="literature" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Background</label></td>
+        <td><input name="background" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">SPEM model</label></td>
+        <td><input type="submit" name="upload" id="upload" value="upload" /></td>
+      </tr>
+          </table>
+          </div>
+      </div>
+          <div class="form_domain">
+		        <div class="domain_tittle">Prerequisits</div>
+   				<div class="table_form"> 
+          <table width="500" border="0" cellpadding="0">
+      <tr>
+        <td class="col1"><label class="label">Qualification required:</label></td>
+        <td><textarea name="qualification" id="" cols="45" rows="2"></textarea>
+          </td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Training required:</label></td>
+        <td><textarea name="training" id="short description" cols="45" rows="2"></textarea></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Experience required:</label></td>
+        <td><input name="experience" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Input:</label></td>
+        <td><textarea name="input" id="short description2" cols="45" rows="2"></textarea></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Output:</label></td>
+        <td><textarea name="output" id="short description3" cols="45" rows="2"></textarea></td>
+      </tr>
+          </table>
+      		</div>
+       </div>
+                            <div class="form_domain">
+                <div class="domain_tittle">Applied in/by</div>
+        		<div class="table_form"> 
+          <table width="500" border="0" cellpadding="0">
+      <tr>
+        <td class="col1"><label class="label">Abstraction level:</label></td>
+        <td><a class="label">
+          <input type="checkbox" name="super system" id="super system" />
+          <label for="super system">super system</label>
+          <br />
+          <input type="checkbox" name="super system" id="super system" />
+          <label for="super system">super system</label>
+          <br />
+          <input type="checkbox" name="super system" id="super system" />
+          <label for="super system">super system</label>
+          <br />
+<input type="checkbox" name="super system" id="super system" />
+          <label for="super system">super system<br />
+          </label>
+          <input type="checkbox" name="super system2" id="super system2" />
+          <label for="super system2">super system</label>
+          <br />
+          <input type="checkbox" name="super system3" id="super system3" />
+          <label for="super system3">super system</label>
+          <br />
+          <label for="super system">            </label>
+          <input type="checkbox" name="super system4" id="super system4" />
+          <label for="super system4">super system</label>
+          <label for="super system"><br />
+          </label>
+        </a></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Viewpoint:</label></td>
+        <td><a class="label">
+          <input type="checkbox" name="super system5" id="super system5" />
+          <label for="super system5">super system</label>
+        </a><br />
+        <a class="label">
+        <input type="checkbox" name="super system6" id="super system6" />
+        <label for="super system6">super system</label>
+        </a><br />
+        <a class="label">
+        <input type="checkbox" name="super system7" id="super system7" />
+        <label for="super system7">super system</label>
+        </a><br />
+        <a class="label">
+        <input type="checkbox" name="super system8" id="super system8" />
+        <label for="super system8">super system</label>
+        </a><br />
+        <a class="label">
+        <input type="checkbox" name="super system9" id="super system9" />
+        <label for="super system9">super system</label>
+        </a></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">SE phase:</label></td>
+        <td><input name="sephase" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="col1"><label class="label">Role:</label></td>
+        <td><input name="role" type="text" /></td>
+      </tr>
+          </table>
+   		</div>
+     </div>   
+      <div class="form_functions">
+        <p>Status: Publlished<br />
+Publication date: 1.2.2013 </p>
+        <p>
+          <input name="preview" type="button" value="preview" />
+          <input name="save" type="button" value="save" />
+        </p>
+        <p> <input name="publish" type="button" value="publish" />
+        </p>
+      </div>
+      </form>
+  </div>
+</section>
+</section>
+</body>
+</html>
+
+
+
+

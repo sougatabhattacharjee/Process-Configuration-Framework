@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Debug</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnbc9GoYOnEeAoLGzXF3FmgAAAAACAAAAAAADZgAAwAAAABAAAABFfmBJLUIelS6WmzCIdnVVAAAAAASAAACgAAAAEAAAANkpZCsuKzbM4Fcw7m2Yb6QYAAAApWMQsTfBBcv6hjJG/DmnbzpXpxlimVO1FAAAAOffIlNBzra1Ux6EYsa64HwaPful</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="about.aspx">
+      <publishTime>06/14/2013 15:40:27</publishTime>
+    </File>
+    <File Include="App_Data/Database.sdf">
+      <publishTime>06/18/2013 14:01:51</publishTime>
+    </File>
+    <File Include="bin/System.Data.SqlServerCe.dll">
+      <publishTime>06/04/2012 14:29:58</publishTime>
+    </File>
+    <File Include="bin/System.Data.SqlServerCe.Entity.dll">
+      <publishTime>06/04/2012 14:29:58</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>06/18/2013 14:03:58</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.pdb">
+      <publishTime>06/18/2013 14:03:58</publishTime>
+    </File>
+    <File Include="contact.aspx">
+      <publishTime>06/14/2013 12:21:56</publishTime>
+    </File>
+    <File Include="ContextForm.aspx">
+      <publishTime>06/18/2013 13:53:08</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>06/18/2013 14:01:32</publishTime>
+    </File>
+    <File Include="disclaimer.aspx">
+      <publishTime>06/14/2013 12:21:36</publishTime>
+    </File>
+    <File Include="error.aspx">
+      <publishTime>06/14/2013 15:40:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/23/2013 15:43:59</publishTime>
+    </File>
+    <File Include="help.aspx">
+      <publishTime>06/14/2013 12:21:45</publishTime>
+    </File>
+    <File Include="imgs/abstr_lev_label.png">
+      <publishTime>06/18/2013 13:53:08</publishTime>
+    </File>
+    <File Include="imgs/apllied_in_by.png">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/description.png">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/dev_costs.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/dev_schedule.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/domain.gif">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/environment.gif">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/first.png">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/icons/board30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/chip30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/component30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/delete.png">
+      <publishTime>05/31/2013 11:10:02</publishTime>
+    </File>
+    <File Include="imgs/icons/details.png">
+      <publishTime>05/31/2013 11:10:02</publishTime>
+    </File>
+    <File Include="imgs/icons/download.ico">
+      <publishTime>05/31/2013 11:10:02</publishTime>
+    </File>
+    <File Include="imgs/icons/download.png">
+      <publishTime>06/18/2013 13:53:08</publishTime>
+    </File>
+    <File Include="imgs/icons/edit.png">
+      <publishTime>05/31/2013 11:10:02</publishTime>
+    </File>
+    <File Include="imgs/icons/Funcional30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/ip30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/logical30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/method30po.jpg">
+      <publishTime>05/31/2013 11:10:02</publishTime>
+    </File>
+    <File Include="imgs/icons/method30po.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/Other30.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/related_Context.png">
+      <publishTime>05/31/2013 11:10:02</publishTime>
+    </File>
+    <File Include="imgs/icons/requirement30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/Technical30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/icons/tool30p.png">
+      <publishTime>06/14/2013 09:47:15</publishTime>
+    </File>
+    <File Include="imgs/Icon_method.jpg">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/Icon_tool.png">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/label.png">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/last.png">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/logo.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/logo_aramis.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/next.png">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/no_data_omi.gif">
+      <publishTime>05/31/2013 11:10:02</publishTime>
+    </File>
+    <File Include="imgs/prerequisits.png">
+      <publishTime>04/23/2013 15:43:59</publishTime>
+    </File>
+    <File Include="imgs/previous.png">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/process_outcomes.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/project.gif">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/qual_product.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/reference.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/search_icon.gif">
+      <publishTime>04/23/2013 15:43:59</publishTime>
+    </File>
+    <File Include="imgs/se_object.gif">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/Thumbs.db">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/triangle.gif">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="imgs/viewpoints_lbl.png">
+      <publishTime>06/18/2013 13:53:08</publishTime>
+    </File>
+    <File Include="imgs/_notes/apllied_in_by.png.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/description.png.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/dev_costs.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/dev_schedule.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/domain.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/environment.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/label.png.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/logo.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/logo_aramis.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/prerequisits.png.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/process_outcomes.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/project.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/qual_product.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/reference.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/search_icon.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/se_object.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="imgs/_notes/triangle.gif.mno">
+      <publishTime>04/23/2013 15:44:00</publishTime>
+    </File>
+    <File Include="ImpactOnSoftware.aspx">
+      <publishTime>06/14/2013 15:44:11</publishTime>
+    </File>
+    <File Include="js/MaxLength.min.js">
+      <publishTime>04/23/2013 15:44:01</publishTime>
+    </File>
+    <File Include="MasterPageTest.aspx">
+      <publishTime>05/31/2013 11:10:01</publishTime>
+    </File>
+    <File Include="menu_assets/styles.css">
+      <publishTime>06/14/2013 10:06:40</publishTime>
+    </File>
+    <File Include="showContext.aspx">
+      <publishTime>06/18/2013 13:53:09</publishTime>
+    </File>
+    <File Include="showImpact.aspx">
+      <publishTime>06/14/2013 15:44:06</publishTime>
+    </File>
+    <File Include="showTechnology.aspx">
+      <publishTime>06/14/2013 16:15:54</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>06/18/2013 13:53:08</publishTime>
+    </File>
+    <File Include="stylesheets/layout.css">
+      <publishTime>06/14/2013 15:58:48</publishTime>
+    </File>
+    <File Include="stylesheets/menu.css">
+      <publishTime>06/14/2013 10:06:40</publishTime>
+    </File>
+    <File Include="Technology.aspx">
+      <publishTime>06/18/2013 13:53:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/18/2013 13:53:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Process Configuration Framework</title>
+<link href="stylesheets/layout.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="principal1">
+	<div class="red_bar">
+    	<div id="red_bar_text">Process Configuration Framework</div>
+    </div>
+    <div id="grey_bar">
+    	<div id="grey_bar_content">
+    		<div id="logo_pcf">
+            	<img src="imgs/logo.gif" alt="logo process configuration framework" width="147" height="57" /></div>
+            <div id="sys_functions_1">
+                <nav>
+                <ul id="header_menu">
+                <li  id="li_header_menu"><a>Add data</a></li> |
+                <li  id="li_header_menu"><a>Edit technology</a></li> |
+                <li  id="li_header_menu"><a>Configure Framework</a></li> |
+                <li  id="li_header_menu"><a>Build Process</a></li> |
+                <li  id="li_header_menu"><input id="search"/></li>
+                </ul>
+                </nav>
+            </div>
+            <div id="logo_aramis">
+            	<img src="imgs/logo_aramis.gif" width="144" height="59" alt="logo aramis" />
+            </div>
+    	</div>
+     </div>
+</div>
+<div id="principal2">
+	<div id="page_tittle">Add Method</div>
+    <div class="progress-bar red"><span style="width: 40%"></span></div>
+    <div id="menu">
+    	<nav>
+            <ul class="side_menu">
+            <li class="li"><a href="index.html" class="item"><span class="item_number">1</span>Technology</a></li>
+            <p class="explanation">Label<br />Description<br />Prerequisits<br />Applied in/by</p>
+            <li class="li"><a href="item2.html" class="item"><span class="item_number">2</span>Context</a></li>
+            <p class="explanation">Application Domain<br />Project<br />Environment</p>
+            <li class="li"><a href="item3.html" class="item"><span class="item_number">3</span>Impact on Software</a></li>
+            <p class="explanation">Developments Costs<br />Quality of the product<br />Process outcome<br />Software object<br />Development Schedule</p>
+            </ul>
+		</nav>
+    </div>
+<div class="form_area item3">
+  <form id="form1" name="form1" method="post" action="">
+  <div id="form_together">
+      <div class="form_domain">
+        <table class="table_form">
+              <tr>
+                <td rowspan="3" class="col0"><img src="imgs/dev_costs.gif" alt="development costs" width="14" height="42"></td>
+                <td class="col1"><label class="label">Total costs:</label></td>
+                <td class="col2"><input name="total costs" type="text" class="textfield"/></td>
+              </tr>
+              <tr>
+                <td class="col1"><label class="label">Training:</label></td>
+                <td class="col2"><input name="training" type="text" class="textfield"/></td>
+              </tr>
+              <tr>
+                <td class="col1"><label class="label">Others:</label></td>
+                <td class="col2"><input name="others" type="text" class="textfield"/></td>
+              </tr>
+   		 </table>
+      </div>
+        <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/qual_product.gif" alt="quality of product" width="17" height="58"></td>
+                <td class="col1"><label class="label">ISO 25010:<br>
+                  (or others domain relevant standards)
+                </label></td>
+                <td class="col2"><textarea name="iso25010" rows="3" class="textfield" id="iso25010"></textarea></td>
+              </tr>
+           </table>
+          </div>
+        <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/process_outcomes.gif" alt="process outcome" width="16" height="60"></td>
+                <td class="col1"><label class="label">Process outcome:<br>
+                </label></td>
+                <td class="col2"><textarea name="process outcome" id="process outcome" rows="3" class="textfield"></textarea></td>
+              </tr>
+           </table>
+        </div>
+        <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/se_object.gif" alt="se object" width="18" height="78"></td>
+                <td class="col1"><label class="label">Software object:<br>
+                </label></td>
+                <td class="col2"><textarea name="software object" id="software object" rows="4" class="textfield"></textarea>
+                  </td>
+              </tr>
+           </table>
+          </div>
+                  <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/dev_schedule.gif" alt="development schedule" width="15" height="74"></td>
+                <td class="col1"><label class="label">Time to market:
+                </label></td>
+                <td class="col2"><textarea name="time to market" rows="4" class="textfield"></textarea></td>
+              </tr>
+           </table>
+          </div>
+                  <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/description.png" alt="description" width="18" height="90"></td>
+                <td class="col1"><label class="label">Description:</label></td>
+                <td class="col2"><textarea name="description" id="description" rows="4" class="textfield"></textarea>
+                  </td>
+              </tr>
+           </table>
+          </div>
+                  <div class="form_domain">
+                   <table class="table_form">
+                        <tr>
+                          <td class="col0"><img src="imgs/reference.gif" alt="reference" width="14" height="81"></td>
+                          <td class="col1"><label class="label">Origin:</label></td>
+                          <td class="col2"><textarea name="origin" rows="4" class="textfield"></textarea></td>
+                        </tr>
+                      </table>
+                    </div>
+      </div>
+      <div id="form_functions">
+        <p>Status: Publlished<br />
+Publication date: 1.2.2013 </p>
+        <p>
+          <input name="preview" type="button" value="preview" class="button gray"/>
+          <input name="save" type="button" value="save" width="30px" class="button gray"/>
+        </p>
+        <p> <input name="      publish now      " type="button" value="publish now" class="button gray"/>
+        </p>
+      
+      </div>
+      </form>
+  </div>
+</div>
+</body>
+</html>

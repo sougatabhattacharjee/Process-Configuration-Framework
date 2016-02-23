@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Process Configuration Framework
+</title><link href="stylesheets/layout.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            text-align: left;
+            width: 381px;
+        }
+    </style>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/MaxLength.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+          
+            //Specifying the Character Count control explicitly
+            $("[id*=Other_StandardsTextBox]").MaxLength(
+            {
+                MaxLength: 100,
+                CharacterCountControl: $('#counter')
+            });
+
+            $("[id*=Process_OutcomeTextBox]").MaxLength(
+            {
+                MaxLength: 100,
+                CharacterCountControl: $('#counter1')
+            });
+
+            $("[id*=Software_ObjectTextBox]").MaxLength(
+            {
+                MaxLength: 100,
+                CharacterCountControl: $('#counter2')
+            });
+
+            $("[id*=Total_ScheduleTextBox]").MaxLength(
+            {
+                MaxLength: 100,
+                CharacterCountControl: $('#counter3')
+            });
+
+            $("[id*=DescriptionTextBox]").MaxLength(
+            {
+                MaxLength: 100,
+                CharacterCountControl: $('#counter4')
+            });
+
+            $("[id*=ReferenceTextBox]").MaxLength(
+            {
+                MaxLength: 100,
+                CharacterCountControl: $('#counter5')
+            });
+
+           
+           
+        });
+    </script>
+</head>
+
+
+<body>
+    <div id="principal1">
+	<div class="red_bar">
+    	<div id="red_bar_text">Process Configuration Framework</div>
+    </div>
+    <div id="grey_bar">
+    	<div id="grey_bar_content">
+    		<div id="logo_pcf">
+            	<img src="imgs/logo.gif" alt="logo process configuration framework" width="147" height="57" /></div>
+            <div id="sys_functions_1">
+                <nav>
+                    <ul id="header_menu">
+                        <li  id="li_header_menu"><a>Add data</a></li> |
+                        <li  id="li_header_menu"><a>Edit technology</a></li> |
+                        <li  id="li_header_menu"><a>Configure Framework</a></li> |
+                         <li  id="li_header_menu"><a>Build Process</a></li> |
+                         <li  id="li_header_menu"><input id="search"/></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="logo_aramis">
+            	<img src="imgs/logo_aramis.gif" width="144" height="59" alt="logo aramis" />
+            </div>
+    	</div>
+     </div>
+</div>
+    <div id="principal2">
+        <div id="page_tittle" class="auto-style1">Add Method</div>
+        <div class="progress-bar red"><span style="width: 40%"></span></div>
+        <div id="menu">
+            <nav>
+                <ul class="side_menu">
+                    <li class="li"><a href="Technology.aspx" class="item"><span class="item_number">1</span>Technology</a></li>
+                    <p class="explanation">
+                        Label<br />
+                        Description<br />
+                        Prerequisits<br />
+                        Applied in/by
+                    </p>
+                    <li class="li"><a href="ContextForm.aspx" class="item"><span class="item_number">2</span>Context</a></li>
+                    <p class="explanation">
+                        Application Domain<br />
+                        Project<br />
+                        Environment
+                    </p>
+                    <li class="li"><a href="ImpactOnSoftware.aspx" class="item"><span class="item_number">3</span>Impact on Software</a></li>
+                    <p class="explanation">
+                        Developments Costs<br />
+                        Quality of the product<br />
+                        Process outcome<br />
+                        Software object<br />
+                        Development Schedule
+                    </p>
+                </ul>
+            </nav>
+        </div>
+        <div class="form_area item3">
+    
+    <form method="post" action="ImpactOnSoftware.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="CJwnLlcFLkj3wfqj4UhNkB+PujdFOAZ6rk6t0jdpETtcHAlRkW8HSZNksKrkVOrd5uG7wSPdR9K3h/F1Bv3wrjLe+K9gttH8kwjDbQQEhh4WXripg1q+TqiyPOg9rBM9yn6su+kOfS6ciabCHYtYXe/uVL9uwkyNEZ/bBcusioiPub7RzSwciiRfdAXP+Yizlin7XHHs95jVhaIOL0p+jWp/qFf7pKBL59y2p8wxGYUkqUij+aun9qFRt1qxzXcBC0aVETQti4BGY2gYLzjEKSKzSut08IVWKOs5lIJAkA3/VKJZKpJCGHOauU4Zz2eIIqtZ9X0lSXfvwOZpxl0y3r9OI2+3SVxZtC+sqYESg5x180sx20auGiKfRIH2V4SbnUOuT1s760e3ZwfKNEMyJu4d1Hh6F/6wXc0DD9+weq1ryqdsreZ+BSVkZ7UZqZ5nSphudjWlOw8uIAXDrticvI6OUfzsoIRGXzGGF9kosAe7RfXmZb2E4mph7kjAhgRGZxrPTEx18BpvRITtJAsp8YOmkt3sfkEgvK3q7L/fC+Rmjan/4T9HX2HzoEt1CRk4" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNOZyKLbEif0ESv3QtD2BK8VbUuasuM3G6fmxCE518liFqTVcyWzLOismgyAlU-GtQ2&amp;t=634773954900000000" type="text/javascript"></script>
+
+
+<script src="/Scripts/jquery-1.4.2.js" type="text/javascript"></script>
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakPaan9xKaKvIRkV4Qa5yGUCH6pJXbrMJM3Lmd0-pa8HR3fw9TUiqpgQ7ERwtBuyU31ApmqfBbgecj4pLZZA2FIQ1&amp;t=634773954900000000" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="6gWDrY+taSBJ5ClxOh3XAi3BFXEf3nijeR4UNVrefJxwwHVRxIXYo8ehOIGVBdVZXkT5bC5Xee5vxn/o7OFkD1twFdDGFXz0Rn7mjaXtC+LTJrUwW+/TyPir3VxHPyKUC/jjwe0o7bwoJuQJLMw+NH8lVLDY+a+p92YFJF/otnOfddRDVnZMbsPnKQNyiZZx8YpGiRbFbmsAI24xvsFErRwwPx0edC5TzD/isBfZdxI9V8q+yymZJrS4zwAFKqSt3b+S3ebZ4xPVMnmbeJbCYMKNo8r7Pxrp+Br2KkcsarIokdTtrIMfBGHC4dSA/eR9jUdwuKl/YL1OLNIxK81IglZ+h1VSLdERlKbW2Yo2knMYGx60E1aK8OZIZhojb/kz846WoRB6hEYsV/GHRggwICz+f5yP5qVIJ89RM/6hlVV7BZ1TDuKUucNZJhgi0hLSJfGVT0x5Zcz8NyvJbRL+FQNNuJ3+Nx3IrLqjK3Nh5Qgp01Azkk8qRdbFJFSmyYl9KT/SFTZV+//YdgBcFi362KIb4f8iBmtHaNgMQ8sw1pd5iC6gukSDpbx37+1/xVMyqrhIlXcOvbQLAAd7ChQHQA==" />
+</div>
+    
+        
+         <table class="stylesheets/layout.css" cellspacing="0" id="FormView1" style="border-collapse:collapse;margin-right: 104px">
+	<tr>
+		<td colspan="2">
+
+  
+
+            
+         
+             
+  <div id="form_together">
+      <div class="form_domain">
+                   <table class="table_form">
+                         <tr>
+                <td rowspan="3" class="col0">&nbsp;</td>
+                <td class="col1"><label class="label">Impact Name:</label></td>
+                <td class="col2"><input name="FormView1$Impact_Name" type="text" id="FormView1_Impact_Name" title="Impact Name" />
+                <span data-val-controltovalidate="FormView1_Impact_Name" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator3" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+               
+                </td>
+              </tr>
+                      </table>
+                    </div>
+      <div class="form_domain">
+        <table class="table_form">
+            
+              <tr>
+                <td rowspan="3" class="col0"><img src="imgs/dev_costs.gif" alt="development costs" width="14" height="42"></td>
+                <td class="col1"><label class="label">Total costs:</label></td>
+                <td class="col2"><input name="FormView1$Total_CostTextBox" type="number" id="FormView1_Total_CostTextBox" title="Total Cost" />
+                <span data-val-controltovalidate="FormView1_Total_CostTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator1" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                <span data-val-controltovalidate="FormView1_Total_CostTextBox" data-val-errormessage="Enter Numbers only!!" id="FormView1_RegularExpressionValidator1" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="\d+" style="font-weight:bold;visibility:hidden;">Enter Numbers only!!</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col1"><label class="label">Training:</label></td>
+                <td class="col2"><input name="FormView1$training" type="number" id="FormView1_training" />
+                    <span data-val-controltovalidate="FormView1_training" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator32" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                <span data-val-controltovalidate="FormView1_training" data-val-errormessage="Enter Numbers only!!" id="FormView1_RegularExpressionValidator32" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="\d+" style="color:Red;font-weight:normal;text-decoration:none;visibility:hidden;">Enter Numbers only!!</span>
+
+                </td>
+              </tr>
+              <tr>
+                <td class="col1"><label class="label">Others:</label></td>
+                <td class="col2"><input name="FormView1$Other_CostTextBox" type="number" id="FormView1_Other_CostTextBox" />
+                    <span data-val-controltovalidate="FormView1_Other_CostTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator2" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                <span data-val-controltovalidate="FormView1_Other_CostTextBox" data-val-errormessage="Enter Numbers only!!" id="FormView1_RegularExpressionValidator2" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="\d+" style="color:Red;font-weight:normal;text-decoration:none;visibility:hidden;">Enter Numbers only!!</span>
+
+                </td>
+              </tr>
+   		 </table>
+      </div>
+        <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/qual_product.gif" alt="quality of product" width="17" height="58"></td>
+                <td class="col1"><label class="label">ISO 25010:<br><br><br>
+                  (or others domain relevant standards)
+                </label></td>
+                <td class="auto-style1">
+                    <select name="FormView1$ISO25010TextBox" id="FormView1_ISO25010TextBox">
+			<option value="1">Functional Suitability</option>
+			<option value="2">Reliability</option>
+			<option value="3">Performance</option>
+			<option value="4">Operability</option>
+			<option value="5">Security</option>
+			<option value="6">Compatibility</option>
+			<option value="7">Maintainability</option>
+			<option value="8">Portability</option>
+
+		</select>
+                    <br><br><br>
+                    
+                    
+                   
+                    <textarea name="FormView1$Other_StandardsTextBox" rows="2" cols="20" id="FormView1_Other_StandardsTextBox" style="width:191px;">
+</textarea>
+                    <br />
+							<div id="counter">
+                            </div>
+                    <span data-val-controltovalidate="FormView1_Other_StandardsTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator9" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                    
+                  </td>
+              </tr>
+           </table>
+          </div>
+        <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/process_outcomes.gif" alt="process outcome" width="16" height="60"></td>
+                <td class="col1"><label class="label">Process outcome:<br>
+                </label></td>
+                <td class="col2"><textarea name="FormView1$Process_OutcomeTextBox" rows="2" cols="20" id="FormView1_Process_OutcomeTextBox">
+</textarea>
+                   <div id="counter1">
+                            </div>
+                     <span data-val-controltovalidate="FormView1_Process_OutcomeTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator4" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                </td>
+              </tr>
+           </table>
+        </div>
+        <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/se_object.gif" alt="se object" width="18" height="78"></td>
+                <td class="col1"><label class="label">Software object:<br>
+                </label></td>
+                <td class="col2"><textarea name="FormView1$Software_ObjectTextBox" rows="2" cols="20" id="FormView1_Software_ObjectTextBox">
+</textarea>
+                    <div id="counter2">
+                            </div>
+                    <span data-val-controltovalidate="FormView1_Software_ObjectTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator5" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                  </td>
+              </tr>
+           </table>
+          </div>
+                  <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/dev_schedule.gif" alt="development schedule" width="15" height="74"></td>
+                <td class="col1"><label class="label">Time to market:
+                </label></td>
+                <td class="col2"><textarea name="FormView1$Total_ScheduleTextBox" rows="2" cols="20" id="FormView1_Total_ScheduleTextBox">
+</textarea>
+                    <div id="counter3">
+                            </div>
+                    <span data-val-controltovalidate="FormView1_Total_ScheduleTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator6" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                </td>
+              </tr>
+           </table>
+          </div>
+                  <div class="form_domain">
+           <table class="table_form">
+              <tr>
+                <td class="col0"><img src="imgs/description.png" alt="description" width="18" height="90"></td>
+                <td class="col1"><label class="label">Description:</label></td>
+                <td class="col2"><textarea name="FormView1$DescriptionTextBox" rows="2" cols="20" id="FormView1_DescriptionTextBox">
+</textarea>
+                   <div id="counter4">
+                            </div>
+                     <span data-val-controltovalidate="FormView1_DescriptionTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator7" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                  </td>
+              </tr>
+           </table>
+          </div>
+                  <div class="form_domain">
+                   <table class="table_form">
+                        <tr>
+                          <td class="col0"><img src="imgs/reference.gif" alt="reference" width="14" height="81"></td>
+                          <td class="col1"><label class="label">Origin:</label></td>
+                          <td class="col2"><textarea name="FormView1$ReferenceTextBox" rows="2" cols="20" id="FormView1_ReferenceTextBox">
+</textarea>
+                             <div id="counter5">
+                            </div>
+                               <span data-val-controltovalidate="FormView1_ReferenceTextBox" data-val-errormessage="Required!" data-val-display="Dynamic" id="FormView1_RequiredFieldValidator8" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:Red;font-style:italic;display:none;">Required!</span> 
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+
+
+
+      <div class="form_domain">
+                   <table class="table_form">
+                        <tr>
+                          <td class="col0">&nbsp;</td>
+                          <td class="col1"><label class="label"> 
+                              <input type="submit" name="FormView1$Button1" value="Insert" onclick="return Myfunction();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;FormView1$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="FormView1_Button1" /></label></td>
+                          <td class="col2"><input type="submit" name="FormView1$InsertCancelButton" value="Reset" id="FormView1_InsertCancelButton" />
+                              
+                            </td>
+                        </tr>
+                      </table>
+                    </div>
+
+      
+     
+
+      
+      
+            
+      
+      <!--      <a onclick="return Myfunction();" id="FormView1_InsertButton1" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;FormView1$InsertButton1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Insert</a>
+            &nbsp;<a id="FormView1_InsertCancelButton1" href="javascript:__doPostBack(&#39;FormView1$InsertCancelButton1&#39;,&#39;&#39;)">Cancel</a>
+      --></div>
+             
+              
+              <div id="form_functions">
+        <p>Status: Publlished<br />
+Publication date: 1.2.2013 </p>
+        <p>
+          <input name="preview" type="button" value="preview" class="button gray"/>
+          <input name="save" type="button" value="save" width="30px" class="button gray"/>
+        </p>
+        <p> <input name="      publish now      " type="button" value="publish now" class="button gray"/>
+        </p>
+      
+      </div>
+              
+        </td>
+	</tr>
+</table>
+    
+
+       
+         
+         <input type="hidden" name="id" id="id" />
+
+       
+        <span id="lblMessage1"></span><br />
+
+    
+    </form>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.uni-kl</groupId>
+  <artifactId>pcf</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>Process Configuration Framework</name>
+  <packaging>netpack</packaging>
+
+  <properties>
+    <visual.studio.solution>Process Configuration Framework.sln</visual.studio.solution>
+    <visual.test.project.pattern>*.Tests;*Test</visual.test.project.pattern>
+    <dotnet.tool.version>4.5</dotnet.tool.version>
+    <sonar.language>cs</sonar.language>
+  </properties>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.sonar-plugins.dotnet</groupId>
+        <artifactId>maven-dotnet-plugin</artifactId>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <configuration>
+          <language>cs</language>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
